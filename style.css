@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    margin: 0
+    margin-top: 7em
 }
 
 article,
@@ -250,7 +250,7 @@ html {
 
 body {
     color: #555;
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     font-family: Lora;
     line-height: 1.57
 }
@@ -290,7 +290,7 @@ h6 {
 }
 
 p {
-    font-size: 1.6rem;
+    font-size: 2rem;
 	margin-top: 0px;
 }
 
