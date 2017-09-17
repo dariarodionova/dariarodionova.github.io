@@ -1,10 +1,17 @@
-/* * { border: 1px solid black; } */
+* { border: 1px solid black; }
 
 @font-face {
   font-family: Lora;
   font-style: normal;
   font-weight: 400;
   src: url(fonts/Lora-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Minerva;
+  font-style: bold;
+  font-weight: 400;
+  src: url(fonts/kakashka.ttf) format("truetype");
 }
 
 /* RESET */
@@ -249,7 +256,7 @@ html {
 }
 
 body {
-    color: #555;
+    color: #000000;
     font-size: 1.5rem;
     font-family: Lora;
     line-height: 1.57
@@ -262,31 +269,35 @@ h4,
 h5,
 h6 {
     font-weight: 900;
-    font-family: Lora;
+    font-size: 1.5rem;
+    font-family: Minerva;
+    color: #000000;
 }
 
 h1 {
-    font-size: 3.2rem
+    font-size: 5rem
 }
 
 h2 {
-    font-size: 3.2rem
+    font-size: 5rem;
+    margin-bottom: 0.2rem;
 }
 
 h3 {
-    font-size: 2.4rem
+    font-size: 3rem;
+    margin-bottom: 0.2rem;
 }
 
 h4 {
-    font-size: 2.0rem
+    font-size: 3rem;
 }
 
 h5 {
-    font-size: 1.8rem
+    font-size: 1.8rem;
 }
 
 h6 {
-    font-size: 1.6rem
+    font-size: 1.6rem;
 }
 
 p {
