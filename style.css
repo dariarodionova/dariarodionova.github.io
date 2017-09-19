@@ -291,10 +291,12 @@ h3 {
 
 h4 {
     font-size: 2.5rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.3em;
 }
 
 h5 {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 h6 {
@@ -437,7 +439,6 @@ position: relative;
 
 .subsection {
 
-
 }
 
 .subsectionheader {
@@ -446,6 +447,10 @@ position: relative;
 
 .contentblock {
     display: flex;
+
+}
+
+.contentblock contentindent {
 
 }
 
