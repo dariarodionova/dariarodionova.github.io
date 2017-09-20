@@ -292,7 +292,6 @@ h3 {
 h4 {
     font-size: 2.5rem;
     margin-bottom: 0.2rem;
-    margin-left: 0.3em;
 }
 
 h5 {
@@ -306,6 +305,7 @@ h6 {
 p {
     font-size: 2rem;
 	margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -445,12 +445,22 @@ position: relative;
 
 }
 
+.formula {
+    margin: 0 0 0 0;
+    vertical-align: middle;
+}
+
+.freetext {
+    margin-left: 0.2em;
+}
+
 .contentblock {
     display: flex;
 
 }
 
-.contentblock contentindent {
+.contentindent {
+    margin-left: 1em;
 
 }
 
