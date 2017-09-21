@@ -86,7 +86,7 @@
                         </div>
                         <div class="textblock">
                             <p>
-                                <b>Unit vector</b> is a vector with a <b>unit norm</b> (norm is a function that assigns positive length to a vector).
+                                <b>Unit vector</b> is a vector with a <b>unit norm</b> <img class="formula" src="formulas/2.png" alt="Formula" title="Formula"> (norm is a function that assigns positive length to a vector).
                             </p>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
                         </div>
                         <div class="textblock">
                             <p>
-                                Vector <b>x</b> and vector <b>y</b> are <b>orthogonal</b> (perpendicular) to each other if <img class="formula" src="formulas/2.png" alt="Formula" title="Formula"> (their dot product equals 0). If both vectors have nonzero norm and their dot product equals 0, then they are perpendicular to each other.
+                                Vector <b>x</b> and vector <b>y</b> are <b>orthogonal</b> (perpendicular) to each other if <img class="formula" src="formulas/3.png" alt="Formula" title="Formula"> (their <a href="#Max Norm">dot product</a> equals 0). If both vectors have nonzero norm and their dot product equals 0, then they are perpendicular to each other.
                             </p>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                         </div>
                         <div class="textblock">
                             <p>
-                                Vector x and vector y are <b>orthonormal</b> if they are <b>orthogonal</b> and have <b>unit norm</b>.
+                                Vector <b>x</b> and vector <b>y</b> are <b>orthonormal</b> if they are <b>orthogonal</b> and have <b>unit norm</b>.
                             </p>
 
                         </div>
@@ -127,9 +127,13 @@
 
                             <p class="freetext">
                                 Norm is a <b>tool</b> that allows us to measure the <b>size of a vector</b> (a non-negative number). It has a form of different functions, suitable for different situations.
-                                The norm is defined such that:
-
+                                The norm is defined such that:<br />
+                                - <img class="formula" src="formulas/5.png" alt="Formula" title="Formula"><br />
+                                - <img class="formula" src="formulas/6.png" alt="Formula" title="Formula"><br />
+                                - <img class="formula" src="formulas/7.png" alt="Formula" title="Formula"><br />
+                                <br />
                                 Most common norms:
+
                             </p>
                        <h4 class="sectionheader contentindent">MANHATTAN NORM</h4>
                         <section class="subsection">
@@ -141,7 +145,8 @@
                                 </div>
                                 <div class="textblock">
                                     <p>
-                                        This norm is calculated as a <b>sum of absolute values</b> in a vector.
+                                        This norm is calculated as a <b>sum of absolute values</b> in a vector.<br />
+                                        <img class="formula" src="formulas/12.png" alt="Formula" title="Formula"><br />
                                     </p>
                                 </div>
                             </div>
@@ -155,14 +160,15 @@
                                 </div>
                                 <div class="textblock">
                                     <p>
-                                        This norm is calculated as a <b>root of a sum of squares of all values</b> in a vector.
+                                        This norm is calculated as a <b>root of a sum of squares of all values</b> in a vector.<br />
+                                        <img class="formula" src="formulas/13.png" alt="Formula" title="Formula"><br />
                                     </p>
 
                                 </div>
                             </div> 
                             </section>
 
-                       <h4 class="sectionheader contentindent">MAX NORM</h4>
+                       <h4 id="Max Norm" class="sectionheader contentindent">MAX NORM</h4>
                             <section class="subsection">
                             <div class="contentblock contentindent">
                                 <div class="imageblock">
@@ -170,7 +176,8 @@
                                 </div>
                                 <div class="textblock">
                                     <p>
-                                        This norm is calculated by taking a maximum absolute value of a vector.
+                                        This norm is calculated by taking a <b>maximum absolute value</b> of a vector.<br />
+                                        <img class="formula" src="formulas/14.png" alt="Formula" title="Formula"><br />
                                     </p>
 
                                 </div>
