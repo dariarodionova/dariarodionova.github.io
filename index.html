@@ -59,9 +59,7 @@
             <section class="articlebody">
                 <section class="chapter">
                     <h2 id="Vector">VECTOR</h2>
-
                     <div class="contentblock">
-
                         <div class="imageblock">
                             <img src="images/Vector.gif" alt="Vector" title="Vector">
                         </div>
@@ -69,48 +67,44 @@
                             <p>
                                 <b>Vector</b> is a <b>set of numbers</b> that can identify a point in space.
                             </p>
-                            
-                             <img class="formula" src="formulas/1.png" alt="Formula" title="Formula">
-                      
+
+                            <img class="formula" src="formulas/1.png" alt="Formula" title="Formula">
                         </div>
                     </div>
 
 
-                       <h3 class="sectionheader">UNIT VECTOR</h3>
+                    <h3 class="sectionheader">UNIT VECTOR</h3>
                     <div class="contentblock">
-                     
-
-
                         <div class="imageblock">
                             <img src="images/unit_vectors.gif" alt="Vector" title="Unit Vectors">
                         </div>
                         <div class="textblock">
                             <p>
-                                <b>Unit vector</b> is a vector with a <b>unit norm</b> <img class="formula" src="formulas/2.png" alt="Formula" title="Formula"> (norm is a function that assigns positive length to a vector).
+                                <b>Unit vector</b> is a vector with a <b>unit norm</b>
+                                <img class="formula" src="formulas/2.png" alt="Formula" title="Formula">
+                                (norm is a function that assigns positive length to a vector).
                             </p>
                         </div>
                     </div>
 
-                           <h3 class="sectionheader">ORTHOGONAL VECTORS</h3>
+
+                    <h3 class="sectionheader">ORTHOGONAL VECTORS</h3>
                     <div class="contentblock">
-                 
-
-
                         <div class="imageblock">
                             <img src="images/orthogonal_vector.gif" alt="Orthogonal Vectors" title="Orthogonal Vectors">
                         </div>
                         <div class="textblock">
                             <p>
-                                Vector <b>x</b> and vector <b>y</b> are <b>orthogonal</b> (perpendicular) to each other if <img class="formula" src="formulas/3.png" alt="Formula" title="Formula"> (their <a href="#Max Norm">dot product</a> equals 0). If both vectors have nonzero norm and their dot product equals 0, then they are perpendicular to each other.
+                                Vector <b>x</b> and vector <b>y</b> are <b>orthogonal</b> (perpendicular) to each other if
+                                <img class="formula" src="formulas/3.png" alt="Formula" title="Formula">
+                                (their <a href="#Max Norm">dot product</a> equals 0). If both vectors have nonzero norm and their dot product equals 0, then they are perpendicular to each other.
                             </p>
                         </div>
                     </div>
 
 
-                     <h3 class="sectionheader">ORTHONORMAL VECTORS</h3>
+                    <h3 class="sectionheader">ORTHONORMAL VECTORS</h3>
                     <div class="contentblock">
-                       
-
 
                         <div class="imageblock">
                             <img src="images/orthonormal_vectors.gif" alt="Orthonormal Vectors" title="Orthonormal Vectors">
@@ -123,73 +117,105 @@
                         </div>
                     </div>
 
-                        <h3 class="sectionheader">VECTOR NORM</h3>
 
-                            <p class="freetext">
-                                Norm is a <b>tool</b> that allows us to measure the <b>size of a vector</b> (a non-negative number). It has a form of different functions, suitable for different situations.
+                    <h3 class="sectionheader">VECTOR NORM</h3>
+                    <p class="freetext">
+                        Norm is a <b>tool</b> that allows us to measure the <b>size of a vector</b> (a non-negative number). It has a form of different functions, suitable for different situations.
                                 The norm is defined such that:<br />
-                                - <img class="formula" src="formulas/5.png" alt="Formula" title="Formula"><br />
-                                - <img class="formula" src="formulas/6.png" alt="Formula" title="Formula"><br />
-                                - <img class="formula" src="formulas/7.png" alt="Formula" title="Formula"><br />
-                                <br />
-                                Most common norms:
+                        -
+                        <img class="formula" src="formulas/5.png" alt="Formula" title="Formula"><br />
+                        -
+                        <img class="formula" src="formulas/6.png" alt="Formula" title="Formula"><br />
+                        -
+                        <img class="formula" src="formulas/7.png" alt="Formula" title="Formula"><br />
+                        <br />
+                        Most common norms:
+                    </p>
+
+                    <h4 class="sectionheader contentindent">MANHATTAN NORM</h4>
+                    <section class="subsection">
+                        <div class="contentblock contentindent">
+                            <div class="imageblock">
+                                <img src="images/manhattan_norm.gif" alt="Manhattan Norm" title="Manhattan Norm">
+                            </div>
+                            <div class="textblock">
+                                <p>
+                                    This norm is calculated as a <b>sum of absolute values</b> in a vector.<br />
+                                    <img class="formula" src="formulas/12.png" alt="Formula" title="Formula"><br />
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <h4 class="sectionheader contentindent">EUCLIDEAN NORM</h4>
+                    <section class="subsection">
+                        <div class="contentblock contentindent">
+                            <div class="imageblock">
+                                <img src="images/euclidean_norm.gif" alt="Euclidean norm" title="Euclidean norm">
+                            </div>
+                            <div class="textblock">
+                                <p>
+                                    This norm is calculated as a <b>root of a sum of squares of all values</b> in a vector.<br />
+                                    <img class="formula" src="formulas/13.png" alt="Formula" title="Formula"><br />
+                                </p>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <h4 id="Max Norm" class="sectionheader contentindent">MAX NORM</h4>
+                    <section class="subsection">
+                        <div class="contentblock contentindent">
+                            <div class="imageblock">
+                                <img src="images/max_norm.gif" alt="Max norm" title="Max norm">
+                            </div>
+                            <div class="textblock">
+                                <p>
+                                    This norm is calculated by taking a <b>maximum absolute value</b> of a vector.<br />
+                                    <img class="formula" src="formulas/14.png" alt="Formula" title="Formula"><br />
+                                </p>
+
+                            </div>
+                        </div>
+                    </section>
+                    <br />
+                    <br />
+
+
+                    <h3 class="sectionheader">VECTOR ADDITION</h3>
+                    <div class="contentblock">
+                        <div class="imageblock">
+                            <img src="images/vector_addition.gif" alt="Vector Addition" title="Vector Addition">
+                        </div>
+                        <div class="textblock">
+                            <p>
+                                When we add two vectors, we get a <b>resulting vector</b> which represents a <b>motion</b> in the <b>direction</b> of the <b>first vector</b> and then the <b>second vector</b> (or vice versa).
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                     <h3 class="sectionheader">DOT PRODUCT</h3>
+                    <div class="contentblock">
+                        <div class="imageblock">
+                            <img src="images/vector_dot_product.gif" alt="Vector Dot Product" title="Vector Dot Product">
+                        </div>
+                        <div class="textblock">
+                            <p>
+                                FIX MULTIPLICATION!
 
                             </p>
-                       <h4 class="sectionheader contentindent">MANHATTAN NORM</h4>
-                        <section class="subsection">
-                     
-                            <div class="contentblock contentindent">
-                               
-                                <div class="imageblock">
-                                    <img src="images/manhattan_norm.gif" alt="Manhattan Norm" title="Manhattan Norm">
-                                </div>
-                                <div class="textblock">
-                                    <p>
-                                        This norm is calculated as a <b>sum of absolute values</b> in a vector.<br />
-                                        <img class="formula" src="formulas/12.png" alt="Formula" title="Formula"><br />
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
 
-                        <h4 class="sectionheader contentindent">EUCLIDEAN NORM</h4>
-                            <section class="subsection">
-                            <div class="contentblock contentindent">
-                                <div class="imageblock">
-                                    <img src="images/euclidean_norm.gif" alt="Euclidean norm" title="Euclidean norm">
-                                </div>
-                                <div class="textblock">
-                                    <p>
-                                        This norm is calculated as a <b>root of a sum of squares of all values</b> in a vector.<br />
-                                        <img class="formula" src="formulas/13.png" alt="Formula" title="Formula"><br />
-                                    </p>
+                        </div>
+                    </div>
 
-                                </div>
-                            </div> 
-                            </section>
 
-                       <h4 id="Max Norm" class="sectionheader contentindent">MAX NORM</h4>
-                            <section class="subsection">
-                            <div class="contentblock contentindent">
-                                <div class="imageblock">
-                                    <img src="images/max_norm.gif" alt="Max norm" title="Max norm">
-                                </div>
-                                <div class="textblock">
-                                    <p>
-                                        This norm is calculated by taking a <b>maximum absolute value</b> of a vector.<br />
-                                        <img class="formula" src="formulas/14.png" alt="Formula" title="Formula"><br />
-                                    </p>
-
-                                </div>
-                            </div> 
-                            </section>
-                        
-                        
                 </section>
 
             </section>
 
-              <!--  <section class="chapter">
+            <!--  <section class="chapter">
                     <h2 id="Matrix">MATRIX</h2>
 
                     <div class="contentblock">
