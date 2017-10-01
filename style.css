@@ -410,6 +410,7 @@ position: relative;
 	position: fixed;
 	left: 0;
 	margin-right: 2em;
+
 }
 
 .menu ul {
@@ -433,7 +434,11 @@ position: relative;
 	/* use label:nth-of-type(n) to fix a bug on safari (<= 8.0.8) with multiple adjacent-sibling selectors*/
 	/* show children when item is checked */
 	display: block;
+	visibility: visible;
+    opacity: 1;
+    animation: fade 0.5s;
 }
+
 
 div.panel {
 	
@@ -568,7 +573,7 @@ img {}
 	position: static;
 	right: 0;
 	margin-right: 0em;
-padding-left: 1em;	
+	padding-left: 1em;	
 }
 .article {
  width: 100%;
@@ -578,7 +583,8 @@ padding-left: 1em;
 }	
 .contentblock {
     display: flex;
-	flex-direction: column;	
+	flex-direction: column;
+	-webkit-flex-direction: column; 
 }
 .imageblock {}
 .textblock {
@@ -588,6 +594,16 @@ img {
 max-width:100%
 }
 
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 	
