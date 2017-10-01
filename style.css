@@ -408,9 +408,35 @@ position: relative;
 .menu {
 	order: 2;
 	position: fixed;
-	right: 0;
+	left: 0;
 	margin-right: 2em;
+}
 
+.menu ul {
+  /* by default hide all sub menus */
+  display: none;
+}
+
+.menu input[type=checkbox] {
+	/* hide native checkbox */
+	position: absolute;
+	opacity: 0;
+}
+
+.menu label, .menu a {
+	position: relative;
+	display: block;
+}
+
+.menu input[type=checkbox]:checked + label + ul,
+.menu input[type=checkbox]:checked + label:nth-of-type(n) + ul {
+	/* use label:nth-of-type(n) to fix a bug on safari (<= 8.0.8) with multiple adjacent-sibling selectors*/
+	/* show children when item is checked */
+	display: block;
+}
+
+div.panel {
+	
 	
 }
 
