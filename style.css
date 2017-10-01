@@ -589,6 +589,7 @@ img {}
 .imageblock {}
 .textblock {
 margin-left: 0em;
+margin-right: 1em;
 }
 img {
 max-width:100%
