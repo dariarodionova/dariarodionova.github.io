@@ -7,6 +7,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
 	<title>The Beauty of Linear Algebra</title>
 	<!-- HTML5 shim for IE backwards compatibility -->
 	<!--[if lt IE 9]>
@@ -24,21 +25,24 @@
     <main class="wrapper">
         <ul class="menu">
 			<input type="checkbox" name ="group-1" id="group-1">
+			
 			<label for="group-1">Vector</label>
+			
           <!--  <li><a href="#Home">Vector</a></li> -->
 			
 				<ul>
-				<li><a href="#Vector">Unit Vector</a></li>
-				<li><a href="#Vector2">Orthogonal Vector</a></li>
-				<li><a href="#Vector3">Orthonormal Vector</a></li>
-				<li><a href="#Vector3">Linear Combination</a></li>
-				<li><a href="#Vector3">Linear Dependance</a></li>
-				<li><a href="#Vector3">Span</a></li>
-				<li><a href="#Vector3">Operations with vectors</a></li>
-				<li><a href="#Vector3">Vector Norm</a></li>
-				<li><a href="#Vector3">Vector Addition</a></li>
-				<li><a href="#Vector3">Dot product</a></li>
-				<li><a href="#Vector3">Cross product</a></li>
+				
+				<li><a href="#Unit Vector">Unit Vector</a></li>
+				<li><a href="#Orthogonal Vectors">Orthogonal Vector</a></li>
+				<li><a href="#Orthonormal Vectors">Orthonormal Vectors</a></li>
+				<li><a href="#Linear Combination">Linear Combination</a></li>
+				<li><a href="#Linear Dependance">Linear Dependance</a></li>
+				<li><a href="#Span">Span</a></li>
+				<li><a href="#Operations with vectors">Operations with vectors</a></li>
+				<li><a href="#Vector Norm">Vector Norm</a></li>
+				<li><a href="#Vector Addition">Vector Addition</a></li>
+				<li><a href="#Dot product">Dot product</a></li>
+				<li><a href="#Cross product">Cross product</a></li>
 				</ul>
 			
 			<input type="checkbox" name ="group-2" id="group-2">
@@ -58,7 +62,7 @@
 			<label for="group-3">Matrix as a Linear Transformation</label>
 				
 				<ul>
-				<li><a href="#Vector3">Matrix as a Linear Transformation</a></li>
+				<!-- <li><a href="#Vector3">Matrix as a Linear Transformation</a></li> -->
 				<li><a href="#Vector3">Matrix Inverse</a></li>
 				<li><a href="#Vector3">Determinant</a></li>
 				<li><a href="#Vector3">Singular Matrix</a></li>
@@ -100,7 +104,7 @@
                     </div>
 
 
-                    <h3 class="sectionheader">UNIT VECTOR</h3>
+                    <h3 id="Unit Vector" class="sectionheader">UNIT VECTOR</h3>
                     <div class="contentblock">
                         <div class="imageblock">
                             <img src="images/unit_vectors.gif" alt="Vector" title="Unit Vectors">
@@ -115,7 +119,7 @@
                     </div>
 
 
-                    <h3 class="sectionheader">ORTHOGONAL VECTORS</h3>
+                    <h3 id="Orthogonal Vectors" class="sectionheader">ORTHOGONAL VECTORS</h3>
                     <div class="contentblock">
                         <div class="imageblock">
                             <img src="images/orthogonal_vector.gif" alt="Orthogonal Vectors" title="Orthogonal Vectors">
@@ -130,7 +134,7 @@
                     </div>
 
 
-                    <h3 class="sectionheader">ORTHONORMAL VECTORS</h3>
+                    <h3 id="Orthonormal Vectors" class="sectionheader">ORTHONORMAL VECTORS</h3>
                     <div class="contentblock">
 
                         <div class="imageblock">
@@ -145,7 +149,7 @@
                     </div>
 
 
-                    <h3 class="sectionheader">VECTOR NORM</h3>
+                    <h3 id="Vector Norm" class="sectionheader">VECTOR NORM</h3>
                     <p class="freetext">
                         Norm is a <b>tool</b> that allows us to measure the <b>size of a vector</b> (a non-negative number). It has a form of different functions, suitable for different situations.
                                 The norm is defined such that:<br />
@@ -157,7 +161,7 @@
                         <img class="formula" src="formulas/7.png" alt="Formula" title="Formula"><br />
                     </p>
 
-                    <h4 class="sectionheader contentindent">MANHATTAN NORM</h4>
+                    <h4 id="Manhattan Norm" class="sectionheader contentindent">MANHATTAN NORM</h4>
                     <section class="subsection">
                         <div class="contentblock contentindent">
                             <div class="imageblock">
@@ -172,7 +176,7 @@
                         </div>
                     </section>
 
-                    <h4 class="sectionheader contentindent">EUCLIDEAN NORM</h4>
+                    <h4 id="Euclidean Norm" class="sectionheader contentindent">EUCLIDEAN NORM</h4>
                     <section class="subsection">
                         <div class="contentblock contentindent">
                             <div class="imageblock">
@@ -188,7 +192,7 @@
                         </div>
                     </section>
 
-                    <h4 class="sectionheader contentindent">MAX NORM</h4>
+                    <h4 id="Max Norm" class="sectionheader contentindent">MAX NORM</h4>
                     <section class="subsection">
                         <div class="contentblock contentindent">
                             <div class="imageblock">
@@ -207,7 +211,7 @@
                     <br />
 
 
-                    <h3 class="sectionheader">VECTOR ADDITION</h3>
+                    <h3 id="Vector Addition" class="sectionheader">VECTOR ADDITION</h3>
                     <div class="contentblock">
                         <div class="imageblock">
                             <img src="images/vector_addition.gif" alt="Vector Addition" title="Vector Addition">
@@ -390,17 +394,21 @@
 
 
     </main>
-    <footer class="footer">Content: Daria Rodionova. Webpage: Bjarte Sebastian Hansen </footer>
-
-
-    <div>
+    <footer class="footer">Content: Daria Rodionova. Webpage: Bjarte Sebastian Hansen 
+	
+	<div>
         <div class="time">
-            Posted on
+            Last updated
             <time datetime="2014-09-28T00:00:00Z">Sep 28, 2014
             </time>
         </div>
 
     </div>
+	
+	</footer>
+
+
+    
 
 </body>
 </html>
